@@ -43,7 +43,6 @@ This semester project was created for the "Základy počítačové grafiky" (Fun
 | `W` / `S`| Move forward / backward   |
 | `A` / `D`| Move left / right         |
 | Mouse    | Look around               |
-| `E`      | Interact with doors       |
 | `Esc`    | Exit the game             |
 
 ## 📝 Notes
