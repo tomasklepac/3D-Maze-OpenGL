@@ -1,0 +1,18 @@
+24x17
+xxxxxxxxxxxxxxxxxxxxxxxx
+x       x H T x   x    x
+xxxxxx  xxx xxx   x  T x
+x T     x     x        x
+x    x  x     x   x    x
+xxx xx  x     x   xxxxxx
+x          H           x
+x       x     x        x
+x  *    x     x        x
+x       xxx xxx        x
+x                      x
+xx xxx    xx xx        x
+x    x    x   x   xx xxx
+x T  x    x T x   x    x
+x    x    xxxxx   x  T x
+x @  x            x    x
+xxxxxxxxxxxxxxxxxxxxxxxx

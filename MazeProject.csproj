@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Shaders\**" />
+    <EmbeddedResource Remove="Shaders\**" />
+    <None Remove="Shaders\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Graphics\Shaders\fragmentShader.frag" />
+    <None Remove="Graphics\Shaders\miniMap.frag" />
+    <None Remove="Graphics\Shaders\miniMap.vert" />
+    <None Remove="Graphics\Shaders\vertexShader.vert" />
+    <None Remove="Graphics\Textures\diamond_albedo.png" />
+    <None Remove="Graphics\Textures\diamond_ao.png" />
+    <None Remove="Graphics\Textures\diamond_height.png" />
+    <None Remove="Graphics\Textures\diamond_metallic.png" />
+    <None Remove="Graphics\Textures\diamond_normal.png" />
+    <None Remove="Graphics\Textures\diamond_roughness.png" />
+    <None Remove="Graphics\Textures\grass_albedo.png" />
+    <None Remove="Graphics\Textures\grass_ao.png" />
+    <None Remove="Graphics\Textures\grass_height.png" />
+    <None Remove="Graphics\Textures\grass_metallic.png" />
+    <None Remove="Graphics\Textures\grass_normal.png" />
+    <None Remove="Graphics\Textures\grass_roughness.png" />
+    <None Remove="Graphics\Textures\wall_albedo.png" />
+    <None Remove="Graphics\Textures\wall_ao.png" />
+    <None Remove="Graphics\Textures\wall_height.png" />
+    <None Remove="Graphics\Textures\wall_metallic.png" />
+    <None Remove="Graphics\Textures\wall_normal.png" />
+    <None Remove="Graphics\Textures\wall_roughness.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Graphics\Shaders\fragmentShader.frag">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Shaders\miniMap.frag">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Shaders\miniMap.vert">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Shaders\vertexShader.vert">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\diamond_albedo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\diamond_ao.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\diamond_height.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\diamond_metallic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\diamond_normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\diamond_roughness.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\grass_albedo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\grass_ao.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\grass_height.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\grass_metallic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\grass_normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\grass_roughness.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\wall_albedo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\wall_ao.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\wall_height.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\wall_metallic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\wall_normal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Textures\wall_roughness.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="StbImageSharp" Version="2.30.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\" />
+  </ItemGroup>
+
+</Project>
