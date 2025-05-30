@@ -41,16 +41,10 @@ This semester project was created for the "Základy počítačové grafiky" (Fun
 | Key      | Action                    |
 |----------|---------------------------|
 | `W` / `S`| Move forward / backward   |
-| `A` / `D`| Strafe left / right       |
+| `A` / `D`| Move left / right         |
 | Mouse    | Look around               |
 | `E`      | Interact with doors       |
 | `Esc`    | Exit the game             |
-
-## 📷 Screenshots
-
-> Add your screenshots here (e.g., in `/screenshots` folder)  
-> Example:  
-> ![Main View](screenshots/maze_view.png)
 
 ## 📝 Notes
 
